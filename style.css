@@ -1,0 +1,71 @@
+body {
+	background-color:#206A5D;
+}
+
+.navbar {
+	background-color:#81B214;
+}
+
+.navbar-brand img {
+	width: 80px;
+}
+
+.navbar-toggler {
+	background-color:#bfdcae;
+}
+
+.carousel {
+	height: 40vh;
+}
+
+.carousel-item {
+	height: 40vh;
+}
+
+@media (min-width: 992px) {
+	.carousel {
+		height: 60vh;
+	}
+
+	.carousel-item {
+		height: 60vh;
+	}
+}
+
+
+.carousel-item img {
+	height: 100%;
+	width: 100%;
+}
+
+#sign-in-form {
+	background-color:#81B214;
+	border:3px solid #bfdcae;
+}
+
+.footer {
+	background-color:#81B214;
+}
+
+#secret {
+	color: #81B214;
+}
+
+ul {
+	list-style-type: none;
+}
+
+@media (min-width: 768px){
+	.card-img-div{
+		min-width :30%;
+		max-width :30%;
+	}
+}
+
+.card-img-div img {
+	width :100%;
+}
+
+#map {
+	width: 100%;
+}
